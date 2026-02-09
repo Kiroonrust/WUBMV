@@ -8,7 +8,7 @@ const yesSound = document.getElementById('yesSound');
 const noSound = document.getElementById('noSound');
 
 yesBtn.addEventListener('click', () => {
-    responseText.textContent = 'Merciii soit prête pour samedi! 💖 💞';
+    responseText.textContent = 'Merciii sois prête pour samedi! 💖 💞';
     gif.src = 'yay.gif';
     yesBtn.style.display = 'none';
     noBtn.style.display = 'none';
