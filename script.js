@@ -9,7 +9,7 @@ const noSound = document.getElementById('noSound');
 
 yesBtn.addEventListener('click', () => {
     responseText.textContent = 'Merciii soit prête pour samedi! 💖 💞';
-    gif.src = 'https://i.pinimg.com/originals/b4/65/34/b46534530b0ef3ffac6636f068dd2e12.gif';
+    gif.src = 'yay.gif';
     yesBtn.style.display = 'none';
     noBtn.style.display = 'none';
     title.style.color = 'transparent';
@@ -34,8 +34,8 @@ noBtn.addEventListener('mouseover', () => {
 });
 
 noBtn.addEventListener('click', () => {
-    responseText.textContent = 'Watchu meaaaan???';
-    gif.src = 'https://i.kym-cdn.com/entries/icons/original/000/045/626/jlawcover.jpg';
+    responseText.textContent = 'Huh???';
+    gif.src = 'https://media.tenor.com/N4mciKRIVwMAAAAM/jennifer-lawrence-what-do-you-mean.gif';
     yesBtn.style.display = 'none';
     noBtn.style.display = 'none';
     title.style.display = 'none';
@@ -111,13 +111,11 @@ window.addEventListener('resize', () => {
 
 // sounds
 
-yesBtn.addEventListener('mouseenter', () => {
-    hoverSound.play();
+noBtn.addEventListener("mouseenter", () => {
+  const s = new Audio("vine-boom.mp3");
+  s.play();
 });
 
-noBtn.addEventListener('mouseenter', () => {
-    hoverSound.play();
-});
 
 yesBtn.addEventListener('click', () => {
     yesSound.play();

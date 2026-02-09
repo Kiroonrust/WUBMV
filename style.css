@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Handjet', serif;
-  background: radial-gradient(circle, rgba(255, 154, 158, 0.8) 0%, rgba(250, 208, 196, 0.8) 50%, rgba(255, 255, 255, 0) 100%);
+  background: radial-gradient(circle, rgba(198, 3, 9, 0.949) 0%, rgba(53, 3, 3, 0.758) 70%);
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -17,11 +17,11 @@ body {
 
 .container {
   text-align: center;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(39, 39, 39, 0.673);
   padding-block: 23px;
   padding-inline: 30px;
   border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 15px rgba(205, 81, 81, 0.2);
   z-index: 1;
   max-width: 90%;
 }
@@ -110,15 +110,15 @@ button {
 
 button:hover {
   transform: scale(1.1);
-  background-color: #e7271b;
+  background-color: #16f537;
 }
 
 #noBtn {
-  background-color: #bfbfbf;
+  background-color: #ed0707;
 }
 
 #noBtn:hover {
-  background-color: #878787;
+  background-color: #fe4444;
 }
 
 #responseText {
